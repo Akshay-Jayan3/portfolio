@@ -10,7 +10,7 @@ const About = () => {
   return (
     <div name='about' className='w-full h-full bg-[#020C1B] text-gray-300'>
     <div className='flex flex-col justify-center items-center w-full h-full '>
-      <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8 '>
+      <div className='max-w-[1000px] w-full sm:grid grid-cols-2 gap-8  px-4 '>
         <div className='sm:text-right pb-8 pl-4 pt-12'>
           <p className='text-4xl font-bold inline  border-b-4 border-[#64FFDA]'>
             About
@@ -18,8 +18,8 @@ const About = () => {
         </div>
         <div></div>
         </div>
-        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4 '>
-          <div>
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-8 '>
+          <div className='p-12'>
           <img src={profilepic} style={{width:"300px"}}alt="profilepic" ></img>
           </div>
           <div className='p-9'>
@@ -27,8 +27,8 @@ const About = () => {
           </div>
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-          <div className='max-w-[1000px] w-full grid sm:grid-row-2 '>
-            <div className=' pt-24 pl-10 flex flex-cols items-end' >
+          <div className='max-w-[1000px] w-full grid sm:grid-row-2 px-4'>
+            <div className=' pt-24 pl-10 flex flex-cols items-end ' >
                 <p className='text-4xl font-bold inline  border-b-4 border-[#64FFDA] mb-8 p-2'>
                 My Interests
                 </p>

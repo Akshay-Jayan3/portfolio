@@ -3,7 +3,7 @@ import mainLogo from '../Assets/Hero-section.svg';
 
 const Home = () => {
   return (
-    <div name="home"  className='w-full h-screen bg-[#020C1B] grid grid-cols-2 gap-2 '>
+    <div name="home"  className='w-full h-screen bg-[#020C1B] sm:grid grid-cols-2 gap-2 '>
 
       <div className='max-w-[1500px] ml-16 px-4 h-full flex flex-col justify-center'>
         <p className='text-[#64FFDA] font-bold text-2xl'>Hello ,</p>
@@ -12,7 +12,7 @@ const Home = () => {
         <p className=' font-bold text-[#6f768b]  max-w-[500px]'>I am front-end developer specialized in designing and developing responsive ,optimized and efficient websites.</p>
        
       </div>
-      <div className=' max -w-[1000px] w-[600px] h-full mx-auto flex flex-col justify-center'> <img src={mainLogo} alt="homepic"   /></div>
+      <div className='hidden md:flex flex-col justify-center max-w-[1000px] w-[600px] h-full mx-auto '> <img src={mainLogo} alt="homepic"   /></div>
 
     </div>
   )
