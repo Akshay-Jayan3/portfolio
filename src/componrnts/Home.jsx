@@ -1,5 +1,9 @@
 import React from 'react'
 import mainLogo from '../Assets/Hero-section.svg';
+import instagram from '../Assets/insta.svg';
+import linkedin from '../Assets/linkedin.svg';
+import github from '../Assets/github.svg';
+
 
 const Home = () => {
   return (
@@ -10,6 +14,12 @@ const Home = () => {
         <h1 className='text-4xl sm:text-6xl font-bold text-[#d2daf7]'>I am Akshay Jayan</h1>
         <h2 className='text-2xl sm:text-4xl font-bold py-4  text-[#8b90a1]'>A Creative Front-end Developer</h2>
         <p className=' font-bold text-[#6f768b]  max-w-[500px]'>I am front-end developer specialized in designing and developing responsive ,optimized and efficient websites.</p>
+        <div className='w-[200px] flex justify-between m-8'>
+          <img src={linkedin} alt="linked-icon" style={{width:"40px"}}></img>
+          <img src={instagram} alt="linked-icon" style={{width:"40px"}}></img>
+          <img src={github} alt="linked-icon" style={{width:"40px"}}></img>
+
+        </div>
        
       </div>
       <div className='hidden md:flex flex-col justify-center max-w-[1000px] w-[600px] h-full mx-auto '> <img src={mainLogo} alt="homepic"   /></div>
