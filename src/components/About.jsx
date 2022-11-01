@@ -6,9 +6,11 @@ import game from '../Assets/game.svg';
 import coffee from '../Assets/coffe.svg';
 import video from '../Assets/video.svg';
 
+
+
 const About = () => {
   return (
-    <div name='about' className='w-full h-full bg-[#020C1B] text-gray-300'>
+    <div name='about' className='w-full h-full bg-[#020C1B] text-[#d2daf7]'>
     <div className='flex flex-col justify-center items-center w-full h-full '>
       <div className='max-w-[1000px] w-full sm:grid grid-cols-2 gap-20  px-4 '>
         <div className='sm:text-center pb-8 pl-4 pt-12 col-span-2'>
@@ -17,15 +19,19 @@ const About = () => {
           </p>
         </div>
         <div></div>
-        </div>
+      </div>
+
+
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-20 px-8 '>
           <div className='p-12'>
           <img src={profile} style={{width:"300px"}}alt="profilepic" ></img>
           </div>
           <div className='p-12'>
-            <p className='text-2xl p-1'>Hello ,my name is Akshay and I love designing ad developing cool websites.I am passionate about UI-UX design and front-end technologies. I specialize in creating responsive ,optimized and efficient websites using react.</p>
+            <p className='text-2xl p-6'>Hello ,my name is Akshay and I love designing ad developing cool websites.I am passionate about UI-UX design and front-end technologies. I specialize in creating responsive ,optimized and efficient websites using react.</p>
           </div>
         </div>
+
+
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-20 px-4'>
           <div className='max-w-[1000px] w-full grid sm:grid-row-2 px-4'>
             <div className=' pt-24 sm:pl-10 flex flex-cols items-end ' >
@@ -54,7 +60,7 @@ const About = () => {
             <p className='mb-4 sm:text-2xl m-1'><span className='font-bold text-[#64FFDA]'>NATIONALITY : </span>Indian</p>
             <p className='mb-4 sm:text-2xl m-1'><span className='font-bold text-[#64FFDA]'>PHONE : </span>+919061196145</p>
             <p className='mb-4 sm:text-2xl ml-1'><span className='font-bold text-[#64FFDA]'>EMAIL : </span>akshayjayan321@gmail.com</p>
-            <div><button className='mt-10 border-2 border-[#64FFDA] rounded-md bg-[#020C1B] p-3 text-[#64FFDA]'>DOWNLOAD CV</button></div>
+            <div><button className='mt-10 border-2 border-[#64FFDA] rounded-md bg-[#020C1B] p-3 text-[#64FFDA] hover:bg-[#64FFDA] hover:text-[#020C1B] hover:font-bold'>DOWNLOAD CV</button></div>
           </div>
         </div>
     </div>

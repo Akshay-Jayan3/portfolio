@@ -15,7 +15,7 @@ import python from '../Assets/python.svg';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-full bg-[#020C1B] text-gray-300'>
+    <div name='skills' className='w-full h-full bg-[#020C1B] text-[#d2daf7]'>
         <div className='flex flex-col justify-center items-center w-full h-full p-4'>
           <div className='max-w-[1000px] w-full sm:grid grid-cols-2 gap-20  px-4 '>
             <div className='sm:text-center pb-8 pl-4 pt-12 col-span-2'>
