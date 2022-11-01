@@ -1,5 +1,5 @@
 import React from 'react';
-import profilepic from '../Assets/profile-pic.svg';
+import profile from '../Assets/profile.svg';
 import music from '../Assets/music.svg';
 import art from '../Assets/art.svg';
 import game from '../Assets/game.svg';
@@ -20,9 +20,9 @@ const About = () => {
         </div>
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-8 '>
           <div className='p-12'>
-          <img src={profilepic} style={{width:"300px"}}alt="profilepic" ></img>
+          <img src={profile} style={{width:"300px"}}alt="profilepic" ></img>
           </div>
-          <div className='p-9'>
+          <div className='p-12'>
             <p className='text-2xl p-1'>Hello ,my name is Akshay and I love designing ad developing cool websites.I am passionate about UI-UX design and front-end technologies. I specialize in creating responsive ,optimized and efficient websites using react.</p>
           </div>
         </div>
