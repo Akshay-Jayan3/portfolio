@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       boxShadow: {
-        'lg': '0 35px 60px -10px rgba(100, 255, 218, 0.7)',
+        'lg': '0 35px 60px 15px rgba(100, 255, 218, 0.7)',
+        '3xl': '0 20px 40px 5px rgba(100, 255, 218, 0.7)',
       },
       
     },

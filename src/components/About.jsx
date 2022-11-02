@@ -5,6 +5,7 @@ import art from '../Assets/art.svg';
 import game from '../Assets/game.svg';
 import coffee from '../Assets/coffe.svg';
 import video from '../Assets/video.svg';
+import resume from '../Assets/Resume.pdf';
 
 
 
@@ -14,7 +15,7 @@ const About = () => {
     <div className='flex flex-col justify-center items-center w-full h-full '>
       <div className='max-w-[1000px] w-full sm:grid grid-cols-2 gap-20  px-4 '>
         <div className='sm:text-center pb-8 pl-4 pt-12 col-span-2'>
-          <p className='text-4xl font-bold inline  border-b-4 border-[#64FFDA]'>
+          <p className='text-2xl sm:text-4xl font-bold inline  border-b-4 border-[#64FFDA]'>
             About
           </p>
         </div>
@@ -26,8 +27,8 @@ const About = () => {
           <div className='p-12'>
           <img src={profile} style={{width:"300px"}}alt="profilepic" ></img>
           </div>
-          <div className='max-w-[500px] pl-2'>
-            <p className='text-[15px] p-2 sm:text-[20px] text-2xl'>Hello ,my name is Akshay and I enjoy designing and developing cool websites.I am passionate about UI-UX design and front-end technologies. I specialize in creating responsive ,optimized and efficient websites using react.</p>
+          <div className='flex justify-center items-center p-2'>
+            <p className='text-[14px] p-2 sm:text-[20px] text-2xl'>Hello ,my name is Akshay and I enjoy designing and developing cool websites.I am passionate about UI-UX design and front-end technologies. I specialize in creating responsive ,optimized and efficient websites using react.</p>
           </div>
         </div>
 
@@ -35,7 +36,7 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-20 px-4'>
           <div className='max-w-[1000px] w-full grid sm:grid-row-2 px-4'>
             <div className=' pt-24 sm:pl-10 flex flex-cols items-end ' >
-                <p className='text-4xl font-bold inline  border-b-4 border-[#64FFDA] mb-8 p-2'>
+                <p className='text-2xl sm:text-4xl font-bold inline  border-b-4 border-[#64FFDA] mb-8 p-2'>
                 My Interests
                 </p>
                 
@@ -60,7 +61,9 @@ const About = () => {
             <p className='mb-4 sm:text-2xl m-1'><span className='font-bold text-[#64FFDA]'>NATIONALITY : </span>Indian</p>
             <p className='mb-4 sm:text-2xl m-1'><span className='font-bold text-[#64FFDA]'>PHONE : </span>+919061196145</p>
             <p className='mb-4 sm:text-2xl ml-1'><span className='font-bold text-[#64FFDA]'>EMAIL : </span>akshayjayan321@gmail.com</p>
-            <div><button className='mt-10 border-2 border-[#64FFDA] rounded-md bg-[#020C1B] p-3 text-[#64FFDA] hover:bg-[#64FFDA] hover:text-[#020C1B] '>DOWNLOAD CV</button></div>
+            
+            
+            <a href={resume} download><div><button className='mt-10 border-2 border-[#64FFDA] rounded-md bg-[#020C1B] p-3 text-[#64FFDA] hover:bg-[#64FFDA] hover:text-[#020C1B] '>DOWNLOAD CV</button></div></a>
           </div>
         </div>
     </div>
