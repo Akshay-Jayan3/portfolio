@@ -33,16 +33,17 @@ const Contact = () => {
                 <p>Kuzhikannil T P Puram P O Vazhoor ,Kottayam,Kerala,India</p>
                 </div>
                 <div className='w-[200px]  ml-0 flex justify-between m-8'>
-                    <img className="cursor-pointer" src={linkedin} alt="linked-icon" style={{width:"40px"}}></img>
+                    <a href="https://www.linkedin.com/in/-akshay-jayan"><img className="cursor-pointer" src={linkedin} alt="linked-icon" style={{width:"40px"}}/></a>
                     <img className="cursor-pointer" src={instagram} alt="insta-icon" style={{width:"40px"}}></img>
-                    <img className="cursor-pointer" src={github} alt="github-icon" style={{width:"40px"}}></img>
+                    <a href='https://github.com/Akshay-Jayan3'><img className="cursor-pointer" src={github} alt="github-icon" style={{width:"40px"}}/></a>
+
 
                  </div>
             </div>
            
             
           
-          <div className='p-12 w-full'>
+          <div className=' w-full' >
             <form className=' flex flex-col justify-center items-center'>
                 
                 <input className='ml-5 mb-8 p-2 bg-[#020C1B] border-2 rounded-md border-[#d2daf7] w-full focus:outline-none focus:border-[#64FFDA] focus:ring-1 focus:ring-[#64FFDA]' type="text" placeholder='Name' name="name" required/>
