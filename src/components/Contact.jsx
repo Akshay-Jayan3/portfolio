@@ -48,7 +48,7 @@ const Contact = () => {
                 <input className='ml-5 mb-8 p-2 bg-[#020C1B] border-2 rounded-md border-[#d2daf7] w-full focus:outline-none focus:border-[#64FFDA] focus:ring-1 focus:ring-[#64FFDA]' type="text" placeholder='Name' name="name" required/>
                 
                
-                <input className='ml-5 mb-8 p-2 bg-[#020C1B] border-2 rounded-md border-[#d2daf7] w-full focus:outline-none focus:border-[#64FFDA] focus:ring-1 focus:ring-[#64FFDA]' type="text" placeholder='Email' name="email" required/>
+                <input className='ml-5 mb-8 p-2 bg-[#020C1B] border-2 rounded-md border-[#d2daf7] w-full focus:outline-none focus:border-[#64FFDA] focus:ring-1 focus:ring-[#64FFDA]' type="email" placeholder='Email' name="email" required/>
                 
                 <textarea className='ml-5 mb-8 p-2 bg-[#020C1B] border-2 rounded-md border-[#d2daf7] w-full focus:outline-none focus:border-[#64FFDA] focus:ring-1 focus:ring-[#64FFDA]' type="text" placeholder="Message" name="message" rows="10" required></textarea>
                 <div className='flex justify-end w-full'>

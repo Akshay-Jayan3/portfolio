@@ -16,7 +16,7 @@ const Home = () => {
         <p className=' font-bold text-left text-[13px] sm:text-[18px] text-[#6f768b]  md:max-w-[500px] '>I am front-end developer specialized in designing and developing responsive ,optimized and efficient websites.</p>
         <div className='w-[200px]  ml-0 flex justify-between m-8'>
           <div className=' w-[50px] h-[40px] flex justify-center items-center rounded-xl hover:shadow-3xl hover:scale-105 duration-500'><a href="https://www.linkedin.com/in/-akshay-jayan"><img className="cursor-pointer " src={linkedin} alt="linked-icon" style={{width:"30px"}}/></a></div>
-          <div  className=' w-[50px] h-[40px] flex justify-center items-center rounded-xl hover:shadow-3xl hover:scale-105 duration-500'><a href="https://instagram.com/akshay_jayan_?igshid=YmMyMTA2M2Y"><img className="cursor-pointer" src={instagram} alt="insta-icon" style={{width:"30px"}}/></a></div>
+          <div  className=' w-[50px] h-[40px] flex justify-center items-center rounded-xl hover:shadow-3xl hover:scale-105 duration-500'><a href="https://instagram.com/akshay_jayan_?igshid=YmMyMTA2M2Y="><img className="cursor-pointer" src={instagram} alt="insta-icon" style={{width:"30px"}}/></a></div>
           <div className='w-[50px] h-[40px] flex justify-center items-center rounded-xl hover:shadow-3xl hover:scale-105 duration-500'><a href='https://github.com/Akshay-Jayan3'><img className="cursor-pointer" src={github} alt="github-icon" style={{width:"30px"}}/></a></div>
           
 
