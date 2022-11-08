@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import {FaBars,FaTimes} from 'react-icons/fa'
 import {Link} from 'react-scroll';
+import logo from  '../Assets/logo.svg';
 
 const Navbar = () => {
 
@@ -12,7 +13,8 @@ const Navbar = () => {
     }
   return (
     <div className='fixed w-full top-0 h-[60px] flex justify-between items-center px-4 bg-[#020C1B] text-[#d2daf7]'>
-        <div>Logo</div>
+        <div><Link  to="home" smooth={true}  duration={500}><img  className='cursor-pointer' src={logo} alt='logo' style={{width:"40px"}}></img>
+                </Link></div>
     
             
             <ul className='hidden md:flex '>
